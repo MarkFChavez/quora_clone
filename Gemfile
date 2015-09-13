@@ -6,6 +6,8 @@ gem 'haml-rails'
 
 group :development do
   gem 'rspec-rails'
+  gem 'pry'
+  gem 'pry-rails'
 end
 
 group :test, :development do
