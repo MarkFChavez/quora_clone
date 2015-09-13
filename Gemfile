@@ -6,13 +6,13 @@ gem 'haml-rails'
 
 group :development do
   gem 'rspec-rails'
-  gem 'pry'
-  gem 'pry-rails'
 end
 
 group :test, :development do
   gem 'factory_girl_rails'
   gem 'database_cleaner'
+  gem 'pry'
+  gem 'pry-rails'
 end
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
