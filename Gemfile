@@ -1,6 +1,8 @@
 source 'https://rubygems.org'
 
 gem 'omniauth-facebook'
+gem 'haml'
+gem 'haml-rails'
 
 group :development do
   gem 'rspec-rails'
