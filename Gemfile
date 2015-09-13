@@ -1,6 +1,15 @@
 source 'https://rubygems.org'
 
 
+group :development do
+  gem 'rspec-rails'
+end
+
+group :test, :development do
+  gem 'factory_girl_rails'
+  gem 'database_cleaner'
+end
+
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '4.1.12'
 # Use sqlite3 as the database for Active Record
